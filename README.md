@@ -8,6 +8,8 @@
 
 http://twitter.github.com/bootstrap/
 
+I forked it for myself, but feel free to use it if you want it.
+
 Bootstrap Wysihtml5 is a plugin for Bootstrap designed by James Hollingworth. It provides a stylish wysiwyg editor for Bootstrap. We use Christian Sterzl's fork.
 
 https://github.com/bootstrap-wysiwyg/bootstrap3-wysiwyg
@@ -22,13 +24,8 @@ __Latest version with Bootstrap 2 support was `0.3.1.24`. New releases only pack
 Include bootstrap-wysihtml5-rails in Gemfile;
 
 ``` ruby
-gem 'bootstrap-wysihtml5-rails'
-```
+gem 'bootstrap-wysihtml5-rails', github: 'christophe-dufour/bootstrap-wysihtml5-rails', branch: 'master'
 
-or you can install from latest build;
-
-``` ruby
-gem 'bootstrap-wysihtml5-rails', :git => 'git://github.com/Nerian/bootstrap-wysihtml5-rails.git'
 ```
 and run `bundle install`.
 
