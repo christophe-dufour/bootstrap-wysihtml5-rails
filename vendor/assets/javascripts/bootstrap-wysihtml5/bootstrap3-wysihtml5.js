@@ -4473,7 +4473,9 @@ Base.extend = function (a, b) {
         handleTables: !0,
         handleTabKey: !0,
         parserRules: {tags: {br: {}, span: {}, div: {}, p: {}}, classes: {}},
-        parser: a.dom.parse,
+        parser: function (html) {
+            return html;
+        },
         composerClassName: "wysihtml5-editor",
         bodyClassName: "wysihtml5-supported",
         useLineBreaks: !0,
