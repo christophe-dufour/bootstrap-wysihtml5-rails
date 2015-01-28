@@ -1,4 +1,4 @@
-# Bootstrap wysihtml5 for Rails
+# Bootstrap wysihtml5 for Rails without any parsing, removing your code...
 
 [![Gem Version](https://badge.fury.io/rb/bootstrap-wysihtml5-rails.png)](http://badge.fury.io/rb/bootstrap-wysihtml5-rails)
 
